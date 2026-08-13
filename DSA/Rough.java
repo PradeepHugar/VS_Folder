@@ -1,20 +1,31 @@
 package DSA;
-import java.util.Map;
-import java.util.HashMap;
 
 
 public class Rough {
     public static void main(String[] args){
-        Map<Integer, Integer> map = new HashMap<>();
-        int[] arr = {3,6,7,9,3,6};
-        int target = 15;
-
-        for(int i = 0; i < arr.length; i++){
-            int complement = target - arr[i];
-            if(map.containsKey(complement)) {
-                System.out.println(map.get(complement) +  " "+ i);;
+        int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int maxEndingHere = arr[0];
+        int maxSoFar = arr[0];
+        int start = 0;
+        int tempstart = 0;
+        int end = 0;
+        for(int i = 1; i < arr.length; i++){
+            int extend = maxEndingHere + arr[i];
+            if(extend > arr[i]){
+                maxEndingHere = extend;
             }
-            map.put(arr[i], i);
+            else{
+                maxEndingHere = arr[i];
+                tempstart =  i;
+            }
+            if(maxEndingHere > maxSoFar){
+                maxSoFar = maxEndingHere;
+                start = tempstart;
+                end = i;
+            }
         }
+        System.err.println("Max sub array: "+maxSoFar);
+        System.out.println("Start index: "+start);
+        System.out.println("End index: "+end);
     }
 }
