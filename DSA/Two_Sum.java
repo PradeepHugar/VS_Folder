@@ -1,6 +1,11 @@
 package DSA;
 import java.util.Map;
 import java.util.HashMap;
+
+/*
+Problem: Given an array and a target, return indices of two numbers that add up to target. 
+Approach: HashMap of value→index; for each element check if target - current was already seen.
+*/
 public class Two_Sum {
     public static void main(String[] args) {
         int[] arr = {12, 24, 16, 8, 20, 0};
