@@ -29,3 +29,5 @@ class stuudeent{
         return this.id == other.id && this.name.equals(other.name);
     }
 }
+
+//Remember to override hashcode() also because 
