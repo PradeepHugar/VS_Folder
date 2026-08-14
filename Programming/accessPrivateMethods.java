@@ -17,4 +17,7 @@ class APMstudent{
     private void show(){
         System.out.println("Private method called");
     }
+    public void m1(){
+        show();
+    }
 }
