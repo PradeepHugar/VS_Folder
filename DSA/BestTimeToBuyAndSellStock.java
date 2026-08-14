@@ -26,3 +26,5 @@ public class BestTimeToBuyAndSellStock {
         System.out.println("Sell day: "+sellDay);
     }    
 }
+//Time: O(n), Space:O(1)
+//Edge case: prices strictly decreasing (answer is 0, never buy),single price (no transaction possible).
