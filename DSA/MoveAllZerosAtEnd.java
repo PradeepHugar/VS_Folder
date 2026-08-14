@@ -20,3 +20,5 @@ public class MoveAllZerosAtEnd {
         }
     }
 }
+//Time: O(n) Space: O(1) 
+//Edge cases: array with no zeroes (nothing changes), array of all zeroes.
