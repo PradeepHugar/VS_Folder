@@ -1,7 +1,7 @@
 class reverseStringRecursion {
     public static void main(String[] args){
         System.out.println(reverse("Pradeep"));
-        System.out.println(charArrReverse("Hugar"));
+        System.out.println(charArrReverse("Hugar5 "));
     }
     //Using Substring
     //Time-complexity = O(n^2)
