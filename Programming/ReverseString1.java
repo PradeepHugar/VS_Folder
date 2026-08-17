@@ -6,6 +6,7 @@ import java.util.Collections;
 public class ReverseString1 {
     public static void main(String[] args){
         System.out.println(reverseStr("Let it happen"));
+        System.out.println(reverseStrWithoutList("With two pointers only.."));
     }
     public static StringBuilder reverseStr(String s){
         char[] chars = s.toCharArray();
@@ -26,5 +27,26 @@ public class ReverseString1 {
             }
         }
         return result;
+    }
+    //Two-pointers
+    //Without list
+    public static String reverseStrWithoutList(String s){
+        char[] chars = s.toCharArray();
+        int left = 0;
+        int right = chars.length-1;
+        while(left<right){
+            if(left == ' '){
+                left++;
+            }
+            if(right == ' '){
+                right--;
+            }
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
+            left++;
+            right--;
+        }
+        return new String(chars);
     }
 }
