@@ -21,6 +21,7 @@ final class ImmutableStudent{
     //Final to  not reassign 
     private final List<String> list;
 
+    //Initialize all fileds through constructor only
     ImmutableStudent(List<String> subjects){
         //while refering to mutable class make a copy for this class separately
         this.list = new ArrayList<>(subjects);
@@ -31,3 +32,5 @@ final class ImmutableStudent{
         return List.copyOf(list);
     }
 }   
+
+//if a field is a mutable object (like a List or Date), return a defensive copy from the getter rather than the original reference
