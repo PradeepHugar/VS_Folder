@@ -34,3 +34,4 @@ final class ImmutableStudent{
 }   
 
 //if a field is a mutable object (like a List or Date), return a defensive copy from the getter rather than the original reference
+//This is how string and wrapper classes are implemented internally, so they are immuatable
