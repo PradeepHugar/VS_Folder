@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "DSA.BestTimeToBuyAndSellStock",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesWhilePreservingOrder",
+            "request": "launch",
+            "mainClass": "DSA.RemoveDuplicatesWhilePreservingOrder",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowEx1",
+            "request": "launch",
+            "mainClass": "DSA.SlidingWindowEx1",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "AnagramEx",
+            "request": "launch",
+            "mainClass": "DSA.AnagramEx",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWords",
+            "request": "launch",
+            "mainClass": "DSA.ReverseWords",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "Two_Sum",
+            "request": "launch",
+            "mainClass": "DSA.Two_Sum",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "InPlaceModification",
+            "request": "launch",
+            "mainClass": "DSA.Practice.InPlaceModification",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArrayEx",
+            "request": "launch",
+            "mainClass": "TwoDArrayEx",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "FindingDuplicates",
+            "request": "launch",
+            "mainClass": "DSA.Java8_Streams.FindingDuplicates",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "Rough",
+            "request": "launch",
+            "mainClass": "DSA.Rough",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

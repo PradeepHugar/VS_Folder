@@ -4,7 +4,7 @@ package DSA;
 
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args){
-        int[] prices = {7, 1, 5, 3, 6, 4};
+        int[] prices = {7, 6, 11, 3, 1, 4};
         //Think element in an array as the price of a stock at one day
         int minPrice = prices[0];
         int maxProfit = 0;
