@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 
 //Problem: Move all zeroes in an array to the end while keeping the relative order of non-zero elements
 public class MoveAllZerosAtEnd {

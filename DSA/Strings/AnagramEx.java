@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Strings;
 
 public class AnagramEx {
     public static void main(String[] args){

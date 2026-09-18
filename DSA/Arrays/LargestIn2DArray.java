@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 
 public class LargestIn2DArray {
     public static void main(String[] args){

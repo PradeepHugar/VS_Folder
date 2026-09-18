@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountEvenOdd",
+            "request": "launch",
+            "mainClass": "DSA.Practice.CountEvenOdd",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "RuuningSum_prefixSum",
+            "request": "launch",
+            "mainClass": "DSA.Arrays.RuuningSum_prefixSum",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
             "name": "KthLargestBySorting",
             "request": "launch",
             "mainClass": "DSA.KthLargestBySorting",

@@ -1,4 +1,4 @@
-    package DSA;
+    package DSA.Strings;
     import java.util.*;
 
     // Longest Substring Without Repeating Characters

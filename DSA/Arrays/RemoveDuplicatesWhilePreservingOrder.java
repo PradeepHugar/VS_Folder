@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 import java.util.*;
 public class RemoveDuplicatesWhilePreservingOrder {
     public static void main(String[] args){

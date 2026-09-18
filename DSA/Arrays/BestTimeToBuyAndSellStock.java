@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 
 //**Greedy tracking:** Making the best possible choice at each step using the information seen so far, while continuously updating that choice as you move through the data.
 
