@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthLargestBySorting",
+            "request": "launch",
+            "mainClass": "DSA.KthLargestBySorting",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting_Techniques.BubbleSort",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargest",
+            "request": "launch",
+            "mainClass": "DSA.SecondLargest",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
+            "name": "LargestIn2DArray",
+            "request": "launch",
+            "mainClass": "DSA.LargestIn2DArray",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
             "name": "BestTimeToBuyAndSellStock",
             "request": "launch",
             "mainClass": "DSA.BestTimeToBuyAndSellStock",
