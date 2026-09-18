@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FrequencyCount",
+            "request": "launch",
+            "mainClass": "DSA.Arrays.FrequencyCount",
+            "projectName": "VS_Folder_685b5fa0"
+        },
+        {
+            "type": "java",
             "name": "CountEvenOdd",
             "request": "launch",
             "mainClass": "DSA.Practice.CountEvenOdd",

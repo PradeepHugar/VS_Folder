@@ -1,5 +1,4 @@
 package DSA.Arrays;
-import java.util.Scanner;
 public class SecondLargest {
     public static void main(String[] args){
         int[] nums = {12, 35, 1, 10, 34, 1};
